@@ -30,6 +30,8 @@ google-pasta==0.2.0
 grpcio==1.50.0
 h5py==3.7.0
 idna==3.4
+imbalanced-learn==0.9.1
+imblearn==0.0
 ipykernel==6.16.2
 ipynb==0.5.1
 ipython==8.5.0
