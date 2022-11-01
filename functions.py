@@ -18,3 +18,17 @@ def detect_outliers(Datos,x): # function to detect outliers
     percentage = (size/size2)*100
 
     return f'There are {size} outliers in variable {x} ({percentage}%), and correspond to the indixes: {outliers}'
+
+def elbow_method(x2,data):
+    wcss = []
+    for i in range(1, x2): # de uno a 11 es?
+        kmeans = KMeans(n_clusters=i, max_iter=1000, random_state=0)
+        kmeans.fit(data)
+        wcss.append(kmeans.inertia_)
+    plt.plot(range(1, x2), wcss)
+    plt.title('Elbow Method')
+    plt.xlabel('Number of clusters')
+    plt.ylabel('WCSS')
+    plt.show()
+
+    return elbow_method
