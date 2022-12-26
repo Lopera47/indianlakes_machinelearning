@@ -1,3 +1,7 @@
+Research question:
+1. Can a machine learning model be built to classify pH state based on its water quality indicators?
+2. Is it possible to group and figure out the type of lake water quality based on its indicators?
+
 General information:
 1 This is a personal project done by Luis Lopera 
 2 The main aim is to improve some machine learnig and deep learning skills for me and the community
